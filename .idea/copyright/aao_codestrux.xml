@@ -1,0 +1,6 @@
+<component name="CopyrightManager">
+  <copyright>
+    <option name="notice" value="Copyright CodeStrux Tech SRL Costa Rica (c) &amp;#36;originalComment.match(&quot;Copyright \(c\) (\d+)&quot;, 1, &quot;-&quot;, &quot;&amp;#36;today.year&quot;)&amp;#36;today.year.&#10;Creado por Alvaro Araya aao [at] codestrux.tech&#10;github:alvaro-araya github:CodeStrux" />
+    <option name="myName" value="aao-codestrux" />
+  </copyright>
+</component>

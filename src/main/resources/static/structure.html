@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <title>Document</title>
+  <style>
+    @media print {
+      header {
+        position: fixed;
+        top: 0;
+        border: none;
+      }
+
+      main {
+        margin: 1cm;
+      }
+
+      footer {
+        position: fixed;
+        bottom: 0;
+        border: none;
+      }
+
+      @page {
+        size: letter;
+      }
+
+      .pagebreak {
+        page-break-before: always;
+      }
+
+      #pagenumber:before {
+        content: counter(page);
+      }
+
+      #pagecount:before {
+        content: counter(pages);
+      }
+
+      .accent-gray-dark {
+        background-color: #ddd;
+      }
+
+      .accent-gray-medium {
+        background-color: #dfdfdf;
+      }
+
+      .accent-gray-light {
+        background-color: #efefef;
+      }
+
+      .border-rounded {
+        border-radius: 2px;
+      }
+    }
+
+    body {
+      font-family: "Atkinson Hyperlegible", sans-serif;
+      font-size: 8pt;
+    }
+
+    table {
+      font-size: 7pt;
+    }
+
+    .pdf-header {
+      width: 700px;
+    }
+
+    .pdf-footer {
+      width: 700px;
+    }
+
+    .pdf-row {
+      display: flex;
+      width: 100%;
+      background-color: red;
+    }
+
+    .pdf-title {
+      font-size: 12pt;
+      font-weight: bold;
+    }
+
+    .pdf-sub-title {
+      font-size: 9pt;
+      font-weight: bold;
+    }
+
+    .pdf-anchor {
+      font-size: 12pt;
+      display: inline-block;
+      margin: 0;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    .container {
+      width: 700px;
+    }
+  </style>
+</head>
+<body>
+
+</body>
+</html>
